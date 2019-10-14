@@ -6,11 +6,18 @@ class Cuadrado{
         //Atributos
         private:
             float lado;
+        //metodos
         public:
-            Cuadrado ();
+            Cuadrado (); // Constructor
             void perimetro();
             void area();
 };
+
+Cuadrado::Cuadrado(float _lado){
+    lado = _lado;
+}
+
+
 
 int main(){
 
