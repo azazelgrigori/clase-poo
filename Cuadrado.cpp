@@ -22,6 +22,11 @@ void Cuadrado::perimetro()[{
     cout<<"El perimetro del cuadrado es: "<<lado*4<<endl;
 }
 
+void Cuadrado::area()[{
+
+    cout<<"El area del cuadrado es: "<<lado*lado<<endl;
+}
+
 
 int main(){
 
