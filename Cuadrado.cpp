@@ -26,11 +26,25 @@ void Cuadrado::area()[{
 
     cout<<"El area del cuadrado es: "<<lado*lado<<endl;
 }
+void pedir_datos(float &a){
+    cout<<"ingrese el tamaño del lado del cuadrado";
+    cin>>a;
+}
 
 
 int main(){
+    float a;
+    cout<<endl<<"calculo del perimetro y are de un cuadrado"<<endl<<endl;
+    pedir_datos(a);
 
+    system("clear");
+    cuadro.perimetro();
+    cout<<endl;
+    cuadro.area();
 
-    system("pause");
+    cin.ignore();
+    cout<<endl<<"pulsa enter para seguir";
+    cin.get();
+
     return 0;
 }
