@@ -30,10 +30,11 @@ int main(){
 
     Fecha afecha = Fecha("18102019"); //objeto 1
     Fecha bfecha("24052018"); //objeto 2 manera de declarar diferente
-
+ 
+ //se aplican metodos en el objeto
     afecha.mostrar();
     bfecha.mostrar();
-
+//terminamos
     system("pause");
     cout<<"presiona cualquier tecla para terminar";
     return 0;
