@@ -29,9 +29,10 @@ void Fecha::mostrar(){
 int main(){
 
     Fecha afecha = Fecha("18102019"); //objeto 1
-    Fecha bfecha("18102019"); //objeto 2 manera de declarar diferente
+    Fecha bfecha("24052018"); //objeto 2 manera de declarar diferente
 
-
+    afecha.mostrar();
+    bfecha.mostrar();
 
     system("pause");
     cout<<"presiona cualquier tecla para terminar";
