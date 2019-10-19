@@ -9,7 +9,7 @@ class Fecha{
         int dia, mes, ano;
     //metodos
     public:
-        Fecha(char [8]);
+        Fecha(char [8]);//constructor
         void mostrar();
 };
 
@@ -19,8 +19,11 @@ Fecha::Fecha(char fecha[]){  //11102019 //salida 11/10/2019
     ano = ((fecha[4]-'0')*1000)+(fecha[5]-'0')*100)+((fecha[6]-'0')*10)+(fecha[7]-'0');
 
 }
-
-
+ //metodo mostrar 
+void Fecha::mostrar(){
+    
+    cout<<"la fecha es: "<<dia<<" / "<<mes<<" / "<<ano<<endl;
+}
 
 
 int main(){
