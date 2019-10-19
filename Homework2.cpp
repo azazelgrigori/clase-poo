@@ -28,6 +28,9 @@ void Fecha::mostrar(){
 
 int main(){
 
+    Fecha afecha = Fecha("18102019"); //objeto 1
+    Fecha bfecha("18102019"); //objeto 2 manera de declarar diferente
+
 
 
     system("pause");
