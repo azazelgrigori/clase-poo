@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Menu();{
+class Menu{
     private:
     string agregar;
     string editar;
@@ -12,7 +12,7 @@ class Menu();{
      Menu(string,string,string);
      void imprimir();
 
-}
+};
 
 Menu::Menu(string a, string b, string c){
     agregar = a;
@@ -29,7 +29,7 @@ void Menu::imprimir(){
 
 int main(){
 
-    Menu amenu();
+    Menu amenu("agregar","editar","eliminar");
 
     amenu.imprimir();
     
