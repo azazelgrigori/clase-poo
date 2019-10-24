@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Menu(){
+class Menu();{
     private:
     string agregar;
     string editar;
