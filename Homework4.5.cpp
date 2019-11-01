@@ -16,8 +16,8 @@ class Perro{
 
 Perro::Perro(string _nombre,string _raza)
 {
-    name = _nombre
-    breed = _raza
+    nombre = _nombre
+    raza = _raza
 }
 Perro::~Perro()
 {
@@ -26,23 +26,23 @@ Perro::~Perro()
 
 void Perro::showData()
 {
-    cout<<"nombre"<<name<<endl;
-    cout<<"raza"<<breed<<endl;
+    cout<<"nombre"<<nombre<<endl;
+    cout<<"raza"<<raza<<endl;
 
 }
 
 void Perro::play()
 {
-    cout<<"el perro"<<name<<"esta jugando"<<endl;
+    cout<<"el perro"<<nombre<<"esta jugando"<<endl;
 }
 
 int main()
 {
     Perro perro1("zeus", "callejero");
 
-    dog1.showData();
-    dog1.play();
-    dog1.~Perro();
+    perro1.showData();
+    perro1.play();
+    perro1.~Perro();
 
     system("pause");
     return 0;
