@@ -10,7 +10,7 @@ class Person //CLASE PADRE
     int age;
     public://metodos
     Person(string, int);
-    void showPerson(;)
+    void showPerson();
 };
 
 class Student : public Person//CLASE HIJA   
@@ -52,7 +52,7 @@ int main()
     Student student_obj("gus",25,"1232134531",95.7):
 
     student_obj.showPerson()
-    student_obj.showStudent()
+    student_obj.showStudent()s
 
 
     system("pause");
