@@ -72,7 +72,9 @@ int main()
 {
     Person *dani[3];
 
-    dani[0] = new student("",,)
+    dani[0] = new student("isaac",23,95.3);
+
+    dani[0] ->show();
 
 
 
